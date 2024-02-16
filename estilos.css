@@ -1,0 +1,53 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#perfil-info, #posts {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#editar-perfil {
+    margin-top: 10px;
+}
+
+#formulario-post input[type="text"],
+#formulario-post textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.comentarios {
+    margin-top: 10px;
+}
+
+.comentarios h3 {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+/* Nova borda interna para delimitar assunto e comentários */
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 5px;
+}
+
+.post .comentarios {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
